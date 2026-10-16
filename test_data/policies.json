@@ -1,0 +1,17 @@
+{
+  "apparel": {
+    "window_days": 30,
+    "defective_covered": true,
+    "rule": "Apparel may be returned within 30 days of the purchase date. A defective item is accepted inside that window."
+  },
+  "electronics": {
+    "window_days": 14,
+    "defective_covered": true,
+    "rule": "Electronics may be returned within 14 days of the purchase date if unopened, or within 14 days if defective."
+  },
+  "office": {
+    "window_days": 7,
+    "defective_covered": false,
+    "rule": "Office supplies may be returned within 7 days of the purchase date if unopened. Defective office supplies are replaced by the maker, not refunded here."
+  }
+}

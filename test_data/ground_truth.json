@@ -1,0 +1,77 @@
+{
+  "invoice": {
+    "file": "invoice.png",
+    "document_type": "tax_invoice",
+    "vendor": "HARBOUR & CO. SUPPLIES",
+    "vendor_vat": "4780123456",
+    "invoice_number": "INV-20418",
+    "invoice_date": "2026-03-12",
+    "due_date": "2026-04-11",
+    "purchase_order": "PO-7781",
+    "currency": "ZAR",
+    "bill_to": "Northwind Field Office",
+    "line_items": [
+      {
+        "sku": "NB-440",
+        "description": "Field notebook",
+        "quantity": 24,
+        "unit_price": 18.5,
+        "amount": 444.0
+      },
+      {
+        "sku": "PL-12",
+        "description": "Plotter pen, black",
+        "quantity": 6,
+        "unit_price": 42.0,
+        "amount": 252.0
+      }
+    ],
+    "subtotal": 696.0,
+    "vat_rate": 0.15,
+    "vat_amount": 104.4,
+    "total": 800.4
+  },
+  "receipt": {
+    "file": "receipt.png",
+    "merchant": "KLOOF MARKET",
+    "vat_number": "4099887766",
+    "receipt_number": "R-19042",
+    "sold_at": "2026-10-03T14:22:00",
+    "currency": "ZAR",
+    "line_items": [
+      {
+        "description": "Milk 2 L",
+        "amount": 32.99
+      },
+      {
+        "description": "Brown bread",
+        "amount": 18.5
+      },
+      {
+        "description": "Coffee 250 g",
+        "amount": 89.0
+      }
+    ],
+    "total": 140.49,
+    "vat_included": 18.32,
+    "tender": "card"
+  },
+  "return_request": {
+    "file": "return_request.png",
+    "customer": "Amina Naidoo",
+    "order_number": "ORD-55210",
+    "sku": "FJ-200",
+    "description": "Field jacket",
+    "category": "apparel",
+    "purchase_date": "2026-09-20",
+    "request_date": "2026-10-14",
+    "reason": "Seam split at the left shoulder",
+    "condition": "defective",
+    "expected_decision": {
+      "eligible": true,
+      "days_since_purchase": 24,
+      "policy_window_days": 30,
+      "category": "apparel"
+    }
+  }
+}
